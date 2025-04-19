@@ -1,12 +1,106 @@
-# React + Vite
+# 🎬 MetaFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MetaFlix is a responsive and modern movie streaming web application built with **React.js**, designed to give users a Netflix-style experience for browsing and watching movie trailers. It fetches real-time data from the TMDB API and displays high-quality movie details and trailers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔥 Browse trending, top-rated, and popular movies
+- 🔍 Search for your favorite movies
+- 🖼️ View movie posters and detailed descriptions
+- 📺 Watch trailers directly from YouTube
+- ⚛️ Built using React.js with functional components and hooks
+- 📱 Responsive design for all devices
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, CSS
+- **API:** [TMDB API](https://www.themoviedb.org/documentation/api)
+- **Media Content:** YouTube (for trailers)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BenDev202/MetaFlix.git
+   cd MetaFlix
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Get a TMDB API key
+
+Create an account at TMDB
+
+Go to your profile → Settings → API → Generate an API Key
+
+Create a .env file in the root and add:
+
+ini
+Copy
+Edit
+REACT_APP_TMDB_API_KEY=your_api_key_here
+Start the development server
+
+bash
+Copy
+Edit
+npm start
+📁 Project Structure
+php
+Copy
+Edit
+MetaFlix/
+├── public/
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Page layout and sections
+│   ├── App.js             # Main App entry
+│   └── index.js           # React DOM entry
+🧠 What I Learned
+How to build dynamic UIs with React
+
+Working with third-party APIs and managing API keys
+
+Handling search and filter functionality
+
+Responsive design best practices
+
+Embedding trailers using YouTube API
+
+🚀 Future Improvements
+Add user authentication
+
+Create playlists or watchlists
+
+Improve UI with animations
+
+Enable trailer autoplay on hover
+
+📸 Demo
+Coming soon — Live version to be deployed on Vercel or Netlify.
+
+🤝 Contributing
+Feel free to fork the project, submit issues, or open pull requests. Feedback and improvements are welcome!
+
+📄 License
+This project is licensed under the MIT License.
+
+🙌 Acknowledgements
+TMDB API
+
+YouTube Data API
+
+Created with ❤️ by BenDev202
+less
+Copy
+Edit
+
+Let me know if you want a logo, badges (e.g. `build passing`, `MIT License`), or screenshots included in 
